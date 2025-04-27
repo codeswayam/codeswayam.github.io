@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Swayam Blog</title><link>https://www.cybersociety.co.in/</link><description>Recent content on Swayam Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cybersociety.co.in/index.xml" rel="self" type="application/rss+xml"/><item><title>Basic Overview of DSA</title><link>https://www.cybersociety.co.in/posts/dsa/basic-overview-of-dsa/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/dsa/basic-overview-of-dsa/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Arrays&lt;/strong>: Linear data structure with a fixed size, allowing random access to elements.&lt;/p>
+&lt;ul>
+&lt;li>Best for: Static datasets with frequent element access.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Access: O(1)&lt;/li>
+&lt;li>Search: O(n)&lt;/li>
+&lt;li>Insertion/Deletion: O(n)
+&lt;a href="https://www.cybersociety.co.in/posts/dsa/array/">Array&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Linked Lists&lt;/strong>: Linear structure of nodes, where each node points to the next.&lt;/p>
+&lt;ul>
+&lt;li>Types: Singly, Doubly, Circular.&lt;/li>
+&lt;li>Best for: Dynamic datasets with frequent insertions/deletions.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Access/Search: O(n)&lt;/li>
+&lt;li>Insertion/Deletion: O(1) (at head/tail with pointer)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Hash Maps (or Hash Tables)&lt;/strong>: Key-value pair storage with a hash function.&lt;/p></description><content>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Arrays&lt;/strong>: Linear data structure with a fixed size, allowing random access to elements.&lt;/p>
+&lt;ul>
+&lt;li>Best for: Static datasets with frequent element access.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Access: O(1)&lt;/li>
+&lt;li>Search: O(n)&lt;/li>
+&lt;li>Insertion/Deletion: O(n)
+&lt;a href="https://www.cybersociety.co.in/posts/dsa/array/">Array&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Linked Lists&lt;/strong>: Linear structure of nodes, where each node points to the next.&lt;/p>
+&lt;ul>
+&lt;li>Types: Singly, Doubly, Circular.&lt;/li>
+&lt;li>Best for: Dynamic datasets with frequent insertions/deletions.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Access/Search: O(n)&lt;/li>
+&lt;li>Insertion/Deletion: O(1) (at head/tail with pointer)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Hash Maps (or Hash Tables)&lt;/strong>: Key-value pair storage with a hash function.&lt;/p>
+&lt;ul>
+&lt;li>Best for: Quick lookup and insertion.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Average: O(1)&lt;/li>
+&lt;li>Worst-case: O(n)(due to hash collisions)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Stacks&lt;/strong>: LIFO (Last In, First Out) structure.&lt;/p>
+&lt;ul>
+&lt;li>Operations: Push, Pop, Peek.&lt;/li>
+&lt;li>Best for: Recursive problems, expression evaluation.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Push/Pop/Peek: O(1)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Queues&lt;/strong>: FIFO (First In, First Out) structure.&lt;/p>
+&lt;ul>
+&lt;li>Variants: Circular Queue, Deque, Priority Queue.&lt;/li>
+&lt;li>Best for: Scheduling, buffering.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Enqueue/Dequeue: O(1)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Trees&lt;/strong>: Hierarchical structure with nodes (root, parent, children).&lt;/p>
+&lt;ul>
+&lt;li>Types: Binary, Binary Search Tree (BST), AVL, Red-Black, etc.&lt;/li>
+&lt;li>Best for: Hierarchical data, searching/sorting.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Search/Insert/Delete: O(h), where h is the tree height.&lt;/li>
+&lt;li>Balanced trees maintain h=O(logn).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Graphs&lt;/strong>: Collection of nodes (vertices) connected by edges.&lt;/p>
+&lt;ul>
+&lt;li>Types: Directed, Undirected, Weighted, Unweighted.&lt;/li>
+&lt;li>Representation: Adjacency Matrix/List.&lt;/li>
+&lt;li>Best for: Network problems, pathfinding.&lt;/li>
+&lt;li>Algorithms: DFS, BFS, Dijkstra’s, Prim’s, Kruskal’s.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></content></item><item><title>Array</title><link>https://www.cybersociety.co.in/posts/dsa/array/array/</link><pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/dsa/array/array/</guid><description>&lt;h3 id="1-sorting-algorithms">&lt;strong>1. Sorting Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Sorting arranges elements in a specific order (ascending or descending).&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Bubble Sort&lt;/strong> – Repeatedly swaps adjacent elements if they are in the wrong order.&lt;/li>
+&lt;li>&lt;strong>Selection Sort&lt;/strong> – Selects the smallest/largest element and places it in order.&lt;/li>
+&lt;li>&lt;strong>Insertion Sort&lt;/strong> – Builds the sorted array one element at a time.&lt;/li>
+&lt;li>&lt;strong>Merge Sort&lt;/strong> – Uses the divide-and-conquer technique to sort.&lt;/li>
+&lt;li>&lt;strong>Quick Sort&lt;/strong> – Selects a pivot and partitions elements around it.&lt;/li>
+&lt;li>&lt;strong>Heap Sort&lt;/strong> – Uses a binary heap to sort efficiently.&lt;/li>
+&lt;li>&lt;strong>Radix Sort&lt;/strong> – Sorts numbers digit by digit.&lt;/li>
+&lt;li>&lt;strong>Counting Sort&lt;/strong> – Counts occurrences of elements (used for small range values).&lt;/li>
+&lt;li>&lt;a href="https://www.cybersociety.co.in/posts/dsa/array/sorting/">Sorting&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="2-searching-algorithms">&lt;strong>2. Searching Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Used to find an element in an array.&lt;/p></description><content>&lt;h3 id="1-sorting-algorithms">&lt;strong>1. Sorting Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Sorting arranges elements in a specific order (ascending or descending).&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Bubble Sort&lt;/strong> – Repeatedly swaps adjacent elements if they are in the wrong order.&lt;/li>
+&lt;li>&lt;strong>Selection Sort&lt;/strong> – Selects the smallest/largest element and places it in order.&lt;/li>
+&lt;li>&lt;strong>Insertion Sort&lt;/strong> – Builds the sorted array one element at a time.&lt;/li>
+&lt;li>&lt;strong>Merge Sort&lt;/strong> – Uses the divide-and-conquer technique to sort.&lt;/li>
+&lt;li>&lt;strong>Quick Sort&lt;/strong> – Selects a pivot and partitions elements around it.&lt;/li>
+&lt;li>&lt;strong>Heap Sort&lt;/strong> – Uses a binary heap to sort efficiently.&lt;/li>
+&lt;li>&lt;strong>Radix Sort&lt;/strong> – Sorts numbers digit by digit.&lt;/li>
+&lt;li>&lt;strong>Counting Sort&lt;/strong> – Counts occurrences of elements (used for small range values).&lt;/li>
+&lt;li>&lt;a href="https://www.cybersociety.co.in/posts/dsa/array/sorting/">Sorting&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="2-searching-algorithms">&lt;strong>2. Searching Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Used to find an element in an array.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Linear Search&lt;/strong> – Searches sequentially from start to end.&lt;/li>
+&lt;li>&lt;strong>Binary Search&lt;/strong> – Searches in a sorted array by dividing it into halves.&lt;/li>
+&lt;li>&lt;strong>Jump Search&lt;/strong> – Jumps ahead by fixed steps and performs a linear search.&lt;/li>
+&lt;li>&lt;strong>Interpolation Search&lt;/strong> – Improved binary search that assumes a uniform distribution of values.&lt;/li>
+&lt;li>&lt;strong>Exponential Search&lt;/strong> – Useful for searching in unbounded or infinite-sized arrays.&lt;/li>
+&lt;li>&lt;a href="https://www.cybersociety.co.in/posts/dsa/array/searching/">Searching&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="3-two-pointer-techniques">&lt;strong>3. Two-Pointer Techniques&lt;/strong>&lt;/h3>
+&lt;p>Used for problems requiring element comparison or sum-based conditions.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Two-Sum Problem&lt;/strong> – Find two numbers in an array that add up to a target.&lt;/li>
+&lt;li>&lt;strong>Three-Sum Problem&lt;/strong> – Find three numbers that sum to a target.&lt;/li>
+&lt;li>&lt;strong>Dutch National Flag Algorithm&lt;/strong> – Used for sorting arrays with three types of elements (e.g., 0s, 1s, and 2s).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="4-divide-and-conquer-algorithms">&lt;strong>4. Divide and Conquer Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Breaks the array into smaller parts, solves each, and merges results.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Merge Sort&lt;/strong> – Recursively divides and merges sorted parts.&lt;/li>
+&lt;li>&lt;strong>Quick Sort&lt;/strong> – Uses a pivot to partition the array.&lt;/li>
+&lt;li>&lt;strong>Binary Search&lt;/strong> – Recursively searches a sorted array.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="5-greedy-algorithms">&lt;strong>5. Greedy Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Make the best choice at each step to find an optimal solution.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Activity Selection Problem&lt;/strong> – Select maximum non-overlapping activities.&lt;/li>
+&lt;li>&lt;strong>Interval Scheduling&lt;/strong> – Schedule tasks with given constraints.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="6-sliding-window-algorithms">&lt;strong>6. Sliding Window Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Efficiently finds a subarray or subset in an array.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Fixed Window Size&lt;/strong> – Finds max/min sum of a subarray of size &lt;code>k&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>Variable Window Size&lt;/strong> – Used for finding the smallest subarray with a sum ≥ target.&lt;/li>
+&lt;li>&lt;strong>Maximum Sum Subarray (Kadane’s Algorithm)&lt;/strong> – Finds the largest sum of contiguous subarrays.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="7-hashing-based-algorithms">&lt;strong>7. Hashing-Based Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Use hash tables for quick lookups and frequency counting.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Two Sum (Hash Map Approach)&lt;/strong> – Stores values and looks for complements.&lt;/li>
+&lt;li>&lt;strong>Subarray with Zero Sum&lt;/strong> – Uses hashing to detect if a sum has occurred before.&lt;/li>
+&lt;li>&lt;strong>Longest Consecutive Sequence&lt;/strong> – Uses a hash set to track elements.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="8-dynamic-programming-dp-algorithms">&lt;strong>8. Dynamic Programming (DP) Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Used for optimization problems.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Longest Increasing Subsequence (LIS)&lt;/strong> – Finds the longest increasing sequence.&lt;/li>
+&lt;li>&lt;strong>0/1 Knapsack Problem&lt;/strong> – Determines the best way to pack items into a knapsack.&lt;/li>
+&lt;li>&lt;strong>Subset Sum Problem&lt;/strong> – Finds if a subset with a given sum exists.&lt;/li>
+&lt;li>&lt;strong>Coin Change Problem&lt;/strong> – Finds the minimum number of coins for a given amount.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="9-matrix-manipulation-algorithms">&lt;strong>9. Matrix Manipulation Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Arrays can be represented as matrices for solving problems.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Rotate a Matrix (90 degrees, 180 degrees, etc.)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Spiral Order Traversal&lt;/strong> – Traverse a 2D array in a spiral.&lt;/li>
+&lt;li>&lt;strong>Flood Fill Algorithm&lt;/strong> – Used in image processing (similar to DFS/BFS).&lt;/li>
+&lt;li>&lt;strong>Pathfinding (Dijkstra’s, Floyd-Warshall, etc.)&lt;/strong> – Find shortest paths in graphs represented as matrices.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="10-bit-manipulation-algorithms">&lt;strong>10. Bit Manipulation Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Use bitwise operations to solve problems efficiently.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Finding the Single Non-Repeating Element (XOR Trick)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Counting Set Bits (Brian Kernighan’s Algorithm)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Subsets using Bitmasking&lt;/strong> – Generate all subsets using bitwise operations.&lt;/li>
+&lt;/ul></content></item><item><title>Searching</title><link>https://www.cybersociety.co.in/posts/dsa/array/searching/</link><pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/dsa/array/searching/</guid><description>&lt;h3 id="1-linear-search">&lt;strong>1. Linear Search&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Sequentially checks each element in the array.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-binary-search-for-sorted-arrays-only">&lt;strong>2. Binary Search (For Sorted Arrays Only)&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Repeatedly divides the array in half and searches in the relevant half.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>O(1)&lt;/strong> (Iterative)&lt;/li>
+&lt;li>&lt;strong>O(log n)&lt;/strong> (Recursive, due to function call stack)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-jump-search-for-sorted-arrays">&lt;strong>3. Jump Search (For Sorted Arrays)&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Jumps ahead by a block size (√n) and does a linear search within that block.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(√n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(√n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-interpolation-search-for-uniformly-distributed-sorted-data">&lt;strong>4. Interpolation Search (For Uniformly Distributed Sorted Data)&lt;/strong>&lt;/h3>
+&lt;p>&lt;strong>Approach:&lt;/strong> Uses the formula to estimate the probable position of the target.
+$$
+pos=left+ \frac {(target−arr[left])×(right−left)}{(arr[right]−arr[left])}​
+$$&lt;/p></description><content>&lt;h3 id="1-linear-search">&lt;strong>1. Linear Search&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Sequentially checks each element in the array.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-binary-search-for-sorted-arrays-only">&lt;strong>2. Binary Search (For Sorted Arrays Only)&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Repeatedly divides the array in half and searches in the relevant half.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>O(1)&lt;/strong> (Iterative)&lt;/li>
+&lt;li>&lt;strong>O(log n)&lt;/strong> (Recursive, due to function call stack)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-jump-search-for-sorted-arrays">&lt;strong>3. Jump Search (For Sorted Arrays)&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Jumps ahead by a block size (√n) and does a linear search within that block.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(√n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(√n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-interpolation-search-for-uniformly-distributed-sorted-data">&lt;strong>4. Interpolation Search (For Uniformly Distributed Sorted Data)&lt;/strong>&lt;/h3>
+&lt;p>&lt;strong>Approach:&lt;/strong> Uses the formula to estimate the probable position of the target.
+$$
+pos=left+ \frac {(target−arr[left])×(right−left)}{(arr[right]−arr[left])}​
+$$&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(n)&lt;/strong> (when data is skewed)&lt;/li>
+&lt;li>Average: &lt;strong>O(log log n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="5-exponential-search-for-unbounded-sorted-arrays">&lt;strong>5. Exponential Search (For Unbounded Sorted Arrays)&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Starts with small steps (1, 2, 4, 8…) to find a suitable range, then uses Binary Search.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="6-fibonacci-search-for-sorted-arrays">&lt;strong>6. Fibonacci Search (For Sorted Arrays)&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Uses Fibonacci numbers instead of dividing by 2 like Binary Search.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="comparison-table">&lt;strong>Comparison Table&lt;/strong>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Algorithm&lt;/th>
+&lt;th>Best Case&lt;/th>
+&lt;th>Worst Case&lt;/th>
+&lt;th>Average Case&lt;/th>
+&lt;th>Space Complexity&lt;/th>
+&lt;th>Sorted Array Required?&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Linear Search&lt;/strong>&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>No&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Binary Search&lt;/strong>&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>O(1) / O(log n)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Jump Search&lt;/strong>&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>O(√n)&lt;/td>
+&lt;td>O(√n)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Interpolation Search&lt;/strong>&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(log log n)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Exponential Search&lt;/strong>&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Fibonacci Search&lt;/strong>&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></content></item><item><title>Sorting</title><link>https://www.cybersociety.co.in/posts/dsa/array/sorting/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/dsa/array/sorting/</guid><description>&lt;h2 id="sort">Sort&lt;/h2>
+&lt;h3 id="1-comparison-based-sorting">&lt;strong>1. Comparison-Based Sorting&lt;/strong>&lt;/h3>
+&lt;p>These algorithms compare elements to determine their order.&lt;/p>
+&lt;h4 id="a-bubble-sort">&lt;strong>a. Bubble Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Repeatedly swaps adjacent elements if they are in the wrong order.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n²)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="b-selection-sort">&lt;strong>b. Selection Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Finds the smallest element and places it in the correct position.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n²)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="c-insertion-sort">&lt;strong>c. Insertion Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Picks one element at a time and places it in its correct position.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n²)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Efficient for small or nearly sorted data.&lt;/li>
+&lt;/ul>
+&lt;h4 id="d-merge-sort-divide-and-conquer">&lt;strong>d. Merge Sort&lt;/strong> (Divide and Conquer)&lt;/h4>
+&lt;ul>
+&lt;li>Divides the array into halves, sorts them, and merges them.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="e-quick-sort-divide-and-conquer">&lt;strong>e. Quick Sort&lt;/strong> (Divide and Conquer)&lt;/h4>
+&lt;ul>
+&lt;li>Picks a pivot, partitions the array, and sorts recursively.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong> (Best &amp;amp; Avg), &lt;strong>O(n²)&lt;/strong> (Worst)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(log n)&lt;/strong> (due to recursion)&lt;/li>
+&lt;/ul>
+&lt;h4 id="f-heap-sort">&lt;strong>f. Heap Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Converts the array into a heap and extracts elements in order.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="g-shell-sort">&lt;strong>g. Shell Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Variation of insertion sort that sorts elements at a gap.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong> (Best), &lt;strong>O(n²)&lt;/strong> (Worst)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-non-comparison-based-sorting">&lt;strong>2. Non-Comparison-Based Sorting&lt;/strong>&lt;/h3>
+&lt;p>These algorithms do not compare elements directly.&lt;/p></description><content>&lt;h2 id="sort">Sort&lt;/h2>
+&lt;h3 id="1-comparison-based-sorting">&lt;strong>1. Comparison-Based Sorting&lt;/strong>&lt;/h3>
+&lt;p>These algorithms compare elements to determine their order.&lt;/p>
+&lt;h4 id="a-bubble-sort">&lt;strong>a. Bubble Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Repeatedly swaps adjacent elements if they are in the wrong order.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n²)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="b-selection-sort">&lt;strong>b. Selection Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Finds the smallest element and places it in the correct position.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n²)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="c-insertion-sort">&lt;strong>c. Insertion Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Picks one element at a time and places it in its correct position.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n²)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Efficient for small or nearly sorted data.&lt;/li>
+&lt;/ul>
+&lt;h4 id="d-merge-sort-divide-and-conquer">&lt;strong>d. Merge Sort&lt;/strong> (Divide and Conquer)&lt;/h4>
+&lt;ul>
+&lt;li>Divides the array into halves, sorts them, and merges them.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="e-quick-sort-divide-and-conquer">&lt;strong>e. Quick Sort&lt;/strong> (Divide and Conquer)&lt;/h4>
+&lt;ul>
+&lt;li>Picks a pivot, partitions the array, and sorts recursively.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong> (Best &amp;amp; Avg), &lt;strong>O(n²)&lt;/strong> (Worst)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(log n)&lt;/strong> (due to recursion)&lt;/li>
+&lt;/ul>
+&lt;h4 id="f-heap-sort">&lt;strong>f. Heap Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Converts the array into a heap and extracts elements in order.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="g-shell-sort">&lt;strong>g. Shell Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Variation of insertion sort that sorts elements at a gap.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong> (Best), &lt;strong>O(n²)&lt;/strong> (Worst)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-non-comparison-based-sorting">&lt;strong>2. Non-Comparison-Based Sorting&lt;/strong>&lt;/h3>
+&lt;p>These algorithms do not compare elements directly.&lt;/p>
+&lt;h4 id="a-counting-sort">&lt;strong>a. Counting Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Counts occurrences of elements and places them in sorted order.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n + k)&lt;/strong> (k is range of numbers)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(k)&lt;/strong>&lt;/li>
+&lt;li>Works only for integer values with a known range.&lt;/li>
+&lt;/ul>
+&lt;h4 id="b-radix-sort">&lt;strong>b. Radix Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Sorts numbers digit by digit using counting sort as a subroutine.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(nk)&lt;/strong> (k is number of digits)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(n + k)&lt;/strong>&lt;/li>
+&lt;li>Works well for fixed-size numbers like integers.&lt;/li>
+&lt;/ul>
+&lt;h4 id="c-bucket-sort">&lt;strong>c. Bucket Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Divides elements into buckets and sorts each bucket individually.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n + k)&lt;/strong> (depends on bucket distribution)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(n + k)&lt;/strong>&lt;/li>
+&lt;li>Works well for uniformly distributed data.&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-hybrid-sorting-algorithms">&lt;strong>3. Hybrid Sorting Algorithms&lt;/strong>&lt;/h3>
+&lt;p>These algorithms combine multiple sorting techniques.&lt;/p>
+&lt;h4 id="a-tim-sort">&lt;strong>a. Tim Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Combination of Merge Sort and Insertion Sort.&lt;/li>
+&lt;li>Used in Python’s built-in sorting (&lt;code>sorted()&lt;/code> and &lt;code>.sort()&lt;/code>).&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="b-introsort">&lt;strong>b. Introsort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Hybrid of Quick Sort, Heap Sort, and Insertion Sort.&lt;/li>
+&lt;li>Used in C++ STL &lt;code>sort()&lt;/code>.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="choosing-the-right-sorting-algorithm">&lt;strong>Choosing the Right Sorting Algorithm&lt;/strong>&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Algorithm&lt;/th>
+&lt;th>Best Case&lt;/th>
+&lt;th>Worst Case&lt;/th>
+&lt;th>Average Case&lt;/th>
+&lt;th>Space Complexity&lt;/th>
+&lt;th>Stable?&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Bubble Sort&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Selection Sort&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>No&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Insertion Sort&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Merge Sort&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Quick Sort&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>No&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Heap Sort&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>No&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Counting Sort&lt;/td>
+&lt;td>O(n + k)&lt;/td>
+&lt;td>O(n + k)&lt;/td>
+&lt;td>O(n + k)&lt;/td>
+&lt;td>O(k)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Radix Sort&lt;/td>
+&lt;td>O(nk)&lt;/td>
+&lt;td>O(nk)&lt;/td>
+&lt;td>O(nk)&lt;/td>
+&lt;td>O(n + k)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bucket Sort&lt;/td>
+&lt;td>O(n + k)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(n + k)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Tim Sort&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></content></item><item><title>My Road map for cyber security</title><link>https://www.cybersociety.co.in/posts/cyber-security/my-road-map-for-cyber-security/</link><pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/cyber-security/my-road-map-for-cyber-security/</guid><description>&lt;h2 id="month-1-3-foundations">Month 1-3: Foundations&lt;/h2>
+&lt;h3 id="networking-fundamentals">Networking Fundamentals&lt;/h3>
+&lt;ul>
+&lt;li>Learn TCP/IP, OSI model, and common protocols&lt;/li>
+&lt;li>Study network topologies and architecture&lt;/li>
+&lt;li>Practice with tools like Wireshark for packet analysis&lt;/li>
+&lt;/ul>
+&lt;h3 id="linux-essentials">Linux Essentials&lt;/h3>
+&lt;ul>
+&lt;li>Install a Linux distribution (e.g., Ubuntu or Kali Linux)&lt;/li>
+&lt;li>Master basic command-line operations&lt;/li>
+&lt;li>Learn file system structure and permissions&lt;/li>
+&lt;/ul>
+&lt;h3 id="programming-basics">Programming Basics&lt;/h3>
+&lt;ul>
+&lt;li>Start with Python for cybersecurity&lt;/li>
+&lt;li>Learn basic scripting for automation&lt;/li>
+&lt;li>Practice with simple security-related coding projects&lt;/li>
+&lt;/ul>
+&lt;h2 id="month-4-6-core-security-concepts">Month 4-6: Core Security Concepts&lt;/h2>
+&lt;h3 id="information-security-principles">Information Security Principles&lt;/h3>
+&lt;ul>
+&lt;li>Study CIA triad (Confidentiality, Integrity, Availability)&lt;/li>
+&lt;li>Learn about access control models and authentication methods&lt;/li>
+&lt;li>Understand basic cryptography concepts&lt;/li>
+&lt;/ul>
+&lt;h3 id="web-application-security">Web Application Security&lt;/h3>
+&lt;ul>
+&lt;li>Learn common web vulnerabilities (e.g., OWASP Top 10)&lt;/li>
+&lt;li>Practice identifying and exploiting basic web app flaws&lt;/li>
+&lt;li>Study secure coding practices&lt;/li>
+&lt;/ul>
+&lt;h3 id="network-security">Network Security&lt;/h3>
+&lt;ul>
+&lt;li>Understand firewalls, IDS/IPS, and VPNs&lt;/li>
+&lt;li>Learn about common network attacks and defenses&lt;/li>
+&lt;li>Practice configuring basic network security tools&lt;/li>
+&lt;/ul>
+&lt;h2 id="month-7-9-specialization-and-practical-skills">Month 7-9: Specialization and Practical Skills&lt;/h2>
+&lt;h3 id="ethical-hacking-basics">Ethical Hacking Basics&lt;/h3>
+&lt;ul>
+&lt;li>Study penetration testing methodologies&lt;/li>
+&lt;li>Learn about reconnaissance and scanning techniques&lt;/li>
+&lt;li>Practice with vulnerable virtual machines (e.g., DVWA, Metasploitable)&lt;/li>
+&lt;/ul>
+&lt;h3 id="incident-response-and-forensics">Incident Response and Forensics&lt;/h3>
+&lt;ul>
+&lt;li>Understand the incident response lifecycle&lt;/li>
+&lt;li>Learn basic digital forensics techniques&lt;/li>
+&lt;li>Practice with forensic tools like Autopsy or EnCase&lt;/li>
+&lt;/ul>
+&lt;h3 id="cloud-security">Cloud Security&lt;/h3>
+&lt;ul>
+&lt;li>Study cloud service models (IaaS, PaaS, SaaS)&lt;/li>
+&lt;li>Learn about shared responsibility models&lt;/li>
+&lt;li>Practice securing cloud environments (e.g., AWS, Azure)&lt;/li>
+&lt;/ul>
+&lt;h2 id="month-10-12-advanced-topics-and-career-preparation">Month 10-12: Advanced Topics and Career Preparation&lt;/h2>
+&lt;h3 id="threat-intelligence">Threat Intelligence&lt;/h3>
+&lt;ul>
+&lt;li>Learn about threat actors and their motivations&lt;/li>
+&lt;li>Study threat intelligence platforms and feeds&lt;/li>
+&lt;li>Practice creating threat intelligence reports&lt;/li>
+&lt;/ul>
+&lt;h3 id="governance-risk-and-compliance">Governance, Risk, and Compliance&lt;/h3>
+&lt;ul>
+&lt;li>Understand common security frameworks (e.g., NIST, ISO 27001)&lt;/li>
+&lt;li>Learn about risk assessment methodologies&lt;/li>
+&lt;li>Study relevant regulations (e.g., GDPR, HIPAA)&lt;/li>
+&lt;/ul>
+&lt;h3 id="career-development">Career Development&lt;/h3>
+&lt;ul>
+&lt;li>Build a professional network (join cybersecurity communities, attend webinars)&lt;/li>
+&lt;li>Create a portfolio of projects and write-ups&lt;/li>
+&lt;li>Prepare for entry-level cybersecurity certifications (e.g., CompTIA Security+)&lt;/li>
+&lt;/ul>
+&lt;p>Throughout the year:&lt;/p></description><content>&lt;h2 id="month-1-3-foundations">Month 1-3: Foundations&lt;/h2>
+&lt;h3 id="networking-fundamentals">Networking Fundamentals&lt;/h3>
+&lt;ul>
+&lt;li>Learn TCP/IP, OSI model, and common protocols&lt;/li>
+&lt;li>Study network topologies and architecture&lt;/li>
+&lt;li>Practice with tools like Wireshark for packet analysis&lt;/li>
+&lt;/ul>
+&lt;h3 id="linux-essentials">Linux Essentials&lt;/h3>
+&lt;ul>
+&lt;li>Install a Linux distribution (e.g., Ubuntu or Kali Linux)&lt;/li>
+&lt;li>Master basic command-line operations&lt;/li>
+&lt;li>Learn file system structure and permissions&lt;/li>
+&lt;/ul>
+&lt;h3 id="programming-basics">Programming Basics&lt;/h3>
+&lt;ul>
+&lt;li>Start with Python for cybersecurity&lt;/li>
+&lt;li>Learn basic scripting for automation&lt;/li>
+&lt;li>Practice with simple security-related coding projects&lt;/li>
+&lt;/ul>
+&lt;h2 id="month-4-6-core-security-concepts">Month 4-6: Core Security Concepts&lt;/h2>
+&lt;h3 id="information-security-principles">Information Security Principles&lt;/h3>
+&lt;ul>
+&lt;li>Study CIA triad (Confidentiality, Integrity, Availability)&lt;/li>
+&lt;li>Learn about access control models and authentication methods&lt;/li>
+&lt;li>Understand basic cryptography concepts&lt;/li>
+&lt;/ul>
+&lt;h3 id="web-application-security">Web Application Security&lt;/h3>
+&lt;ul>
+&lt;li>Learn common web vulnerabilities (e.g., OWASP Top 10)&lt;/li>
+&lt;li>Practice identifying and exploiting basic web app flaws&lt;/li>
+&lt;li>Study secure coding practices&lt;/li>
+&lt;/ul>
+&lt;h3 id="network-security">Network Security&lt;/h3>
+&lt;ul>
+&lt;li>Understand firewalls, IDS/IPS, and VPNs&lt;/li>
+&lt;li>Learn about common network attacks and defenses&lt;/li>
+&lt;li>Practice configuring basic network security tools&lt;/li>
+&lt;/ul>
+&lt;h2 id="month-7-9-specialization-and-practical-skills">Month 7-9: Specialization and Practical Skills&lt;/h2>
+&lt;h3 id="ethical-hacking-basics">Ethical Hacking Basics&lt;/h3>
+&lt;ul>
+&lt;li>Study penetration testing methodologies&lt;/li>
+&lt;li>Learn about reconnaissance and scanning techniques&lt;/li>
+&lt;li>Practice with vulnerable virtual machines (e.g., DVWA, Metasploitable)&lt;/li>
+&lt;/ul>
+&lt;h3 id="incident-response-and-forensics">Incident Response and Forensics&lt;/h3>
+&lt;ul>
+&lt;li>Understand the incident response lifecycle&lt;/li>
+&lt;li>Learn basic digital forensics techniques&lt;/li>
+&lt;li>Practice with forensic tools like Autopsy or EnCase&lt;/li>
+&lt;/ul>
+&lt;h3 id="cloud-security">Cloud Security&lt;/h3>
+&lt;ul>
+&lt;li>Study cloud service models (IaaS, PaaS, SaaS)&lt;/li>
+&lt;li>Learn about shared responsibility models&lt;/li>
+&lt;li>Practice securing cloud environments (e.g., AWS, Azure)&lt;/li>
+&lt;/ul>
+&lt;h2 id="month-10-12-advanced-topics-and-career-preparation">Month 10-12: Advanced Topics and Career Preparation&lt;/h2>
+&lt;h3 id="threat-intelligence">Threat Intelligence&lt;/h3>
+&lt;ul>
+&lt;li>Learn about threat actors and their motivations&lt;/li>
+&lt;li>Study threat intelligence platforms and feeds&lt;/li>
+&lt;li>Practice creating threat intelligence reports&lt;/li>
+&lt;/ul>
+&lt;h3 id="governance-risk-and-compliance">Governance, Risk, and Compliance&lt;/h3>
+&lt;ul>
+&lt;li>Understand common security frameworks (e.g., NIST, ISO 27001)&lt;/li>
+&lt;li>Learn about risk assessment methodologies&lt;/li>
+&lt;li>Study relevant regulations (e.g., GDPR, HIPAA)&lt;/li>
+&lt;/ul>
+&lt;h3 id="career-development">Career Development&lt;/h3>
+&lt;ul>
+&lt;li>Build a professional network (join cybersecurity communities, attend webinars)&lt;/li>
+&lt;li>Create a portfolio of projects and write-ups&lt;/li>
+&lt;li>Prepare for entry-level cybersecurity certifications (e.g., CompTIA Security+)&lt;/li>
+&lt;/ul>
+&lt;p>Throughout the year:&lt;/p>
+&lt;ul>
+&lt;li>Stay updated with cybersecurity news and trends&lt;/li>
+&lt;li>Participate in Capture The Flag (CTF) competitions&lt;/li>
+&lt;li>Contribute to open-source security projects&lt;/li>
+&lt;li>Practice ethical hacking on platforms like Hack-The-Box or Try-Hack-Me&lt;/li>
+&lt;/ul></content></item><item><title>Network</title><link>https://www.cybersociety.co.in/posts/cyber-security/network/</link><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/cyber-security/network/</guid><description>&lt;h1 id="what-is-computer-networking">What is computer networking?&lt;/h1>
+&lt;p>Networking, or computer networking, is the process of connecting two or more computing devices, such as desktop computers, mobile devices, routers or applications, to enable the transmission and exchange of information and resources.&lt;/p>
+&lt;p>Networked devices rely on communications protocols—rules that describe how to transmit or exchange data across a network—to share information over physical or wireless connections.&lt;/p>
+&lt;h1 id="key-networking-components-and-devices">Key networking components and devices&lt;/h1>
+&lt;p>Before we delve into more complex networking topics, it’s important to understand fundamental networking components, including:&lt;/p></description><content>&lt;h1 id="what-is-computer-networking">What is computer networking?&lt;/h1>
+&lt;p>Networking, or computer networking, is the process of connecting two or more computing devices, such as desktop computers, mobile devices, routers or applications, to enable the transmission and exchange of information and resources.&lt;/p>
+&lt;p>Networked devices rely on communications protocols—rules that describe how to transmit or exchange data across a network—to share information over physical or wireless connections.&lt;/p>
+&lt;h1 id="key-networking-components-and-devices">Key networking components and devices&lt;/h1>
+&lt;p>Before we delve into more complex networking topics, it’s important to understand fundamental networking components, including:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>IP address:&lt;/strong> An IP address is the unique number assigned to every network device in an Internet Protocol (IP) network; each IP address identifies the device’s host network and its location on the network. When one device sends data to another, the data includes a “header” that includes the IP addresses of both the sending and receiving devices.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Nodes:&lt;/strong> A node is a network connection point that can receive, send, create or store data. It’s essentially any network device—computers, printers, modems, bridges or switches—that can recognize, process and transmit information to another network node. Each node requires some form of identification (such an IP or MAC address) to receive access to the network.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Routers:&lt;/strong> A router is a physical or virtual device that sends data “packets” between networks. Routers analyze the data within packets to determine the best transmission path and use sophisticated routing algorithms to forward data packets until they reach their destination node.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Switches:&lt;/strong> A switch is a device that connects network devices and manages node-to-node communication across a network, making sure that data packets reach their intended destination. Unlike routers, which send information &lt;em>between&lt;/em> networks, switches send information between nodes &lt;em>within&lt;/em> a network.&lt;/p>
+&lt;p>Consequently, “switching” refers to how data is transferred between devices on a network. Networks rely on three main types of switching:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>Circuit switching&lt;/em> establishes a dedicated data communication path between nodes in a network, so no other traffic can traverse the same path. Circuit switching sees to it that full bandwidth is available during every transmission.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Message switching&lt;/em> sends whole messages from the source node to the destination node, with the message traveling from switch to switch until it reaches the destination.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Packet switching&lt;/em> involves breaking down data into independent components to make data transmission less demanding of network resources. With packet switching, packets—instead of entire data streams—travel through the network to their end destination.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Ports:&lt;/strong> A port indicates a specific connection between network devices, with each port identified by a number. If an IP address is analogous to a hotel address, then ports are the suites and room numbers. Computers use port numbers to determine which application, service or process should receive which messages.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Gateways:&lt;/strong> Gateways are hardware devices that facilitate communication between two different networks. Routers, firewalls and other gateway devices use rate converters, protocol translators and other technologies to make inter-network communication possible between otherwise incompatible devices.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="network-types-by-communication-type">Network types by communication type&lt;/h3>
+&lt;p>Computing networks can transmit data using a range of transmission dynamics, including: 
+Multipoint networks&lt;/p>
+&lt;h4 id="in-a-multipoint-network">In a multipoint network,&lt;/h4>
+&lt;p>multiple devices share channel capacity and network links.&lt;/p>
+&lt;h4 id="point-to-point-networks">Point-to-point networks&lt;/h4>
+&lt;p>Network devices establish a direct node-to-node link to transmit data.&lt;/p>
+&lt;h4 id="broadcast-networks">Broadcast networks&lt;/h4>
+&lt;p>On broadcast networks, several interested “parties” (devices) can receive one-way transmissions from a single sending device. Television stations are a great example of broadcast networks.&lt;/p>
+&lt;h4 id="virtual-private-networks-vpns">Virtual private networks (VPNs)&lt;/h4>
+&lt;p>A VPN is a secure, point-to-point connection between two network endpoints. It establishes an encrypted channel that keeps a user’s identity and access credentials, as well as any data transferred, inaccessible to hackers.&lt;/p>
+&lt;h1 id="network-communication-protocols">Network communication protocols&lt;/h1>
+&lt;p>Whether it’s the internet protocol (IP) suite, Ethernet, wireless LAN (WLAN) or cellular communication standards, all computer networks follow communication protocols—sets of rules that every node on the network must follow in order to share and receive data. Protocols also rely on gateways to enable incompatible devices to communicate (a Windows computer attempting to access Linux servers, for instance)&lt;/p>
+&lt;p>Many modern networks run on TCP/IP models, which include four network layers.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Network access layer.&lt;/strong> Also called the data link layer or the physical layer, the network access layer of a TCP/IP network includes the network &lt;a href="https://www.ibm.com/topics/infrastructure">infrastructure&lt;/a> (hardware and software components) necessary for interfacing with the network medium. It handles physical data transmission—using Ethernet and protocols such as the address resolution protocol (ARP)—between devices on the same network.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Internet layer.&lt;/strong> The internet layer is responsible for logical addressing, routing and packet forwarding. It primarily relies on the IP protocol and the Internet Control Message Protocol (ICMP), which manages addressing and routing of packets across different networks.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Transport layer.&lt;/strong> The TCP/IP transport layer enables data transfer between upper and lower layers of the network. Using TCP and UDP protocols, it also provides mechanisms for error checking and flow control.&lt;/p>
+&lt;p>TCP is a connection-based protocol that is generally slower but more reliable than UDP. UDP is a connectionless protocol that is faster than TCP but does not provide guaranteed transfer. UDP protocols facilitate packet transmission for time-sensitive apps (such as video streaming and gaming platforms) and DNS lookups.**&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Application layer.&lt;/strong> TCP/IP’s application layer uses HTTP, FTP, Post Office Protocol 3 (POP3), SMTP, &lt;a href="https://www.ibm.com/topics/dns">domain name system (DNS)&lt;/a> and SSH protocols to provide network services directly to applications. It also manages all the protocols that support user applications&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="osi-model">OSI Model&lt;/h1>
+&lt;p>The Open Systems Interconnection (OSI) model—also called the OSI reference model—is a conceptual model that divides network communication and interoperability into seven abstract layers. It provides a standardized model that enables different applications, computer systems and networks to communicate.&lt;/p>
+&lt;p>The OSI model emerged as a solution to communication incompatibilities between the diverse array of networking protocols in use around the turn of the century. The layers of OSI gave developers and engineers a framework for building interoperable hardware and software across networks by providing a categorical approach to &lt;a href="https://www.ibm.com/topics/networking">networking&lt;/a>.&lt;/p>
+&lt;p>At each layer of the stack—typically shown in reverse order to illustrate how data moves through a network—the OSI model provides guidelines and criteria for network components and their unique computing functions.&lt;/p>
+&lt;p>The layers are:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Layer 7: The application layer initiates communication with the network, including the protocols and data manipulation processes that convert computer-readable network data into user-readable responses.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Layer 6: The presentation layer prepares data for the application layer, including data translation, compression and &lt;a href="https://www.ibm.com/topics/encryption">encryption&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Layer 5: The session layer initiates and terminates connections between two devices interacting on the network, making sure that resources are neither overused nor underutilized.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Layer 4: The transport layer transmits end-to-end data between two devices interacting on the network, making sure that data isn’t lost, misconfigured or corrupted.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Layer 3: The network layer handles data addressing, routing and forwarding processes for devices interacting across different networks. If the devices are on the same network, they don’t need the network layer to interact.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Layer 2: Unlike the network layer, the data link layer manages data routing between two interacting devices on the same network.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Layer 1: The physical layer comprises the physical assets, like routers and USB cables, that convert data into strings of 1s and 0s for transmission to higher layers.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://www.ibm.com/topics/networking">source1&lt;/a>
+&lt;a href="https://www.ibm.com/think/topics/osi-model">source2&lt;/a>
+&lt;a href="https://en.wikipedia.org/wiki/OSI_model">source3&lt;/a>&lt;/p></content></item><item><title>Cyber Security</title><link>https://www.cybersociety.co.in/posts/cyber-security/cyber-security/</link><pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/cyber-security/cyber-security/</guid><description>&lt;h1 id="hi-guys-lets-start-our-cyber-security-journey-is-from-today">Hi guys lets Start our cyber security journey is From today&lt;/h1>
+&lt;h3 id="in-this-journey-we-are-going-to-learn-about-the-fundamentals-of-cyber-security">In this Journey we are going to learn about the fundamentals of cyber security&lt;/h3>
+&lt;ul>
+&lt;li>Programming for Cybersecurity&lt;/li>
+&lt;li>Cybersecurity Basics&lt;/li>
+&lt;li>Networking Fundamentals&lt;/li>
+&lt;li>Operating Systems Security&lt;/li>
+&lt;li>Cryptography&lt;/li>
+&lt;li>Penetration Testing&lt;/li>
+&lt;/ul>
+&lt;h3 id="i-am-thing-of-starting-form-c-and-c-as-they-are-low-level-languages-and-help-me-with-my-college-also-and-in-cyberspace-also">I am thing of starting form c and c++ as they are low level languages and help me with my college also and in cyberspace also.&lt;/h3>
+&lt;h2 id="i-am-thing-of-complete-the-basic-in-12-months-so--that-i-can-get-some-internship-and-grow-my--self">I am thing of complete the basic in 12 Months so that i can get some internship and grow my self.&lt;/h2>
+&lt;h2 id="lets-start-this-journey-of-mine-form-1-jan-2025-this-is-my-new-year-resolution-that-i-will-cyber-security-internship-by-the-end-of-this-year">Lets start this Journey of mine form 1 Jan 2025 This is my new Year Resolution that I will Cyber Security internship by the end of this year.&lt;/h2>
+&lt;h2 id="i-am--think-of-posting-my-work-weekly-here-as-i-know-no-body-is-reading-this-this-but-it-helps-me-feel-motivated-to-do-the-work">I am think of Posting my work weekly here as i know no body is reading this this but it helps me feel motivated to do the work&lt;/h2>
+&lt;h2 id="thanks">Thanks&lt;/h2></description><content>&lt;h1 id="hi-guys-lets-start-our-cyber-security-journey-is-from-today">Hi guys lets Start our cyber security journey is From today&lt;/h1>
+&lt;h3 id="in-this-journey-we-are-going-to-learn-about-the-fundamentals-of-cyber-security">In this Journey we are going to learn about the fundamentals of cyber security&lt;/h3>
+&lt;ul>
+&lt;li>Programming for Cybersecurity&lt;/li>
+&lt;li>Cybersecurity Basics&lt;/li>
+&lt;li>Networking Fundamentals&lt;/li>
+&lt;li>Operating Systems Security&lt;/li>
+&lt;li>Cryptography&lt;/li>
+&lt;li>Penetration Testing&lt;/li>
+&lt;/ul>
+&lt;h3 id="i-am-thing-of-starting-form-c-and-c-as-they-are-low-level-languages-and-help-me-with-my-college-also-and-in-cyberspace-also">I am thing of starting form c and c++ as they are low level languages and help me with my college also and in cyberspace also.&lt;/h3>
+&lt;h2 id="i-am-thing-of-complete-the-basic-in-12-months-so--that-i-can-get-some-internship-and-grow-my--self">I am thing of complete the basic in 12 Months so that i can get some internship and grow my self.&lt;/h2>
+&lt;h2 id="lets-start-this-journey-of-mine-form-1-jan-2025-this-is-my-new-year-resolution-that-i-will-cyber-security-internship-by-the-end-of-this-year">Lets start this Journey of mine form 1 Jan 2025 This is my new Year Resolution that I will Cyber Security internship by the end of this year.&lt;/h2>
+&lt;h2 id="i-am--think-of-posting-my-work-weekly-here-as-i-know-no-body-is-reading-this-this-but-it-helps-me-feel-motivated-to-do-the-work">I am think of Posting my work weekly here as i know no body is reading this this but it helps me feel motivated to do the work&lt;/h2>
+&lt;h2 id="thanks">Thanks&lt;/h2></content></item><item><title>My First blog</title><link>https://www.cybersociety.co.in/posts/my-first-blog/</link><pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/my-first-blog/</guid><description>&lt;h2 id="this-is-my-first-blog-to-help-me--log-my-life-throughout-my-college-life">This is my First blog to help me log my life throughout my college life&lt;/h2>
+&lt;h2 id="so-lets-being">So lets being&lt;/h2>
+&lt;p>fuck you&lt;/p></description><content>&lt;h2 id="this-is-my-first-blog-to-help-me--log-my-life-throughout-my-college-life">This is my First blog to help me log my life throughout my college life&lt;/h2>
+&lt;h2 id="so-lets-being">So lets being&lt;/h2>
+&lt;p>fuck you&lt;/p></content></item><item><title>About Me</title><link>https://www.cybersociety.co.in/about/</link><pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/about/</guid><description>&lt;p>&lt;em>Hi, I&amp;rsquo;m Swayam&lt;/em>&lt;/p>
+&lt;p>Welcome to my little corner of the internet! I’m a passionate learner and creator with a love for all things science, technology, and creativity. From exploring the mysteries of &lt;strong>astrophysics&lt;/strong> to diving into the logic of &lt;strong>mathematics&lt;/strong> and &lt;strong>robotics&lt;/strong>, I’m captivated by how the universe works and how we can shape it through innovation.&lt;/p>
+&lt;p>As a developer, I enjoy &lt;strong>programming&lt;/strong> and building applications. Currently, I’m developing a project that combines &lt;strong>Flask&lt;/strong> for backend development with &lt;strong>React&lt;/strong> on the frontend, bridging technology and user experience seamlessly.&lt;/p></description><content>&lt;p>&lt;em>Hi, I&amp;rsquo;m Swayam&lt;/em>&lt;/p>
+&lt;p>Welcome to my little corner of the internet! I’m a passionate learner and creator with a love for all things science, technology, and creativity. From exploring the mysteries of &lt;strong>astrophysics&lt;/strong> to diving into the logic of &lt;strong>mathematics&lt;/strong> and &lt;strong>robotics&lt;/strong>, I’m captivated by how the universe works and how we can shape it through innovation.&lt;/p>
+&lt;p>As a developer, I enjoy &lt;strong>programming&lt;/strong> and building applications. Currently, I’m developing a project that combines &lt;strong>Flask&lt;/strong> for backend development with &lt;strong>React&lt;/strong> on the frontend, bridging technology and user experience seamlessly.&lt;/p>
+&lt;p>Outside of coding, I’m an avid &lt;strong>reader&lt;/strong>, a fan of &lt;strong>anime&lt;/strong>, and a movie enthusiast. I also enjoy music and the art of storytelling, finding inspiration in every form of creativity.&lt;/p>
+&lt;p>Curiosity fuels me, and I’m always looking to expand my knowledge, whether it’s through books, new projects, or exploring the vast realms of science and technology.&lt;/p>
+&lt;p>Let’s connect and explore the infinite possibilities together!&lt;/p>
+&lt;hr></content></item></channel></rss>

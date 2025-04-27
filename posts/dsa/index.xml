@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>_index on Swayam Blog</title><link>https://www.cybersociety.co.in/posts/dsa/</link><description>Recent content in _index on Swayam Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cybersociety.co.in/posts/dsa/index.xml" rel="self" type="application/rss+xml"/><item><title>Basic Overview of DSA</title><link>https://www.cybersociety.co.in/posts/dsa/basic-overview-of-dsa/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/dsa/basic-overview-of-dsa/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Arrays&lt;/strong>: Linear data structure with a fixed size, allowing random access to elements.&lt;/p>
+&lt;ul>
+&lt;li>Best for: Static datasets with frequent element access.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Access: O(1)&lt;/li>
+&lt;li>Search: O(n)&lt;/li>
+&lt;li>Insertion/Deletion: O(n)
+&lt;a href="https://www.cybersociety.co.in/posts/dsa/array/">Array&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Linked Lists&lt;/strong>: Linear structure of nodes, where each node points to the next.&lt;/p>
+&lt;ul>
+&lt;li>Types: Singly, Doubly, Circular.&lt;/li>
+&lt;li>Best for: Dynamic datasets with frequent insertions/deletions.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Access/Search: O(n)&lt;/li>
+&lt;li>Insertion/Deletion: O(1) (at head/tail with pointer)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Hash Maps (or Hash Tables)&lt;/strong>: Key-value pair storage with a hash function.&lt;/p></description><content>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Arrays&lt;/strong>: Linear data structure with a fixed size, allowing random access to elements.&lt;/p>
+&lt;ul>
+&lt;li>Best for: Static datasets with frequent element access.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Access: O(1)&lt;/li>
+&lt;li>Search: O(n)&lt;/li>
+&lt;li>Insertion/Deletion: O(n)
+&lt;a href="https://www.cybersociety.co.in/posts/dsa/array/">Array&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Linked Lists&lt;/strong>: Linear structure of nodes, where each node points to the next.&lt;/p>
+&lt;ul>
+&lt;li>Types: Singly, Doubly, Circular.&lt;/li>
+&lt;li>Best for: Dynamic datasets with frequent insertions/deletions.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Access/Search: O(n)&lt;/li>
+&lt;li>Insertion/Deletion: O(1) (at head/tail with pointer)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Hash Maps (or Hash Tables)&lt;/strong>: Key-value pair storage with a hash function.&lt;/p>
+&lt;ul>
+&lt;li>Best for: Quick lookup and insertion.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Average: O(1)&lt;/li>
+&lt;li>Worst-case: O(n)(due to hash collisions)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Stacks&lt;/strong>: LIFO (Last In, First Out) structure.&lt;/p>
+&lt;ul>
+&lt;li>Operations: Push, Pop, Peek.&lt;/li>
+&lt;li>Best for: Recursive problems, expression evaluation.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Push/Pop/Peek: O(1)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Queues&lt;/strong>: FIFO (First In, First Out) structure.&lt;/p>
+&lt;ul>
+&lt;li>Variants: Circular Queue, Deque, Priority Queue.&lt;/li>
+&lt;li>Best for: Scheduling, buffering.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Enqueue/Dequeue: O(1)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Trees&lt;/strong>: Hierarchical structure with nodes (root, parent, children).&lt;/p>
+&lt;ul>
+&lt;li>Types: Binary, Binary Search Tree (BST), AVL, Red-Black, etc.&lt;/li>
+&lt;li>Best for: Hierarchical data, searching/sorting.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Search/Insert/Delete: O(h), where h is the tree height.&lt;/li>
+&lt;li>Balanced trees maintain h=O(logn).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Graphs&lt;/strong>: Collection of nodes (vertices) connected by edges.&lt;/p>
+&lt;ul>
+&lt;li>Types: Directed, Undirected, Weighted, Unweighted.&lt;/li>
+&lt;li>Representation: Adjacency Matrix/List.&lt;/li>
+&lt;li>Best for: Network problems, pathfinding.&lt;/li>
+&lt;li>Algorithms: DFS, BFS, Dijkstra’s, Prim’s, Kruskal’s.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></content></item></channel></rss>

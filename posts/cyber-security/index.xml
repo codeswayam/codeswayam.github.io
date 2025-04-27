@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber Security on Swayam Blog</title><link>https://www.cybersociety.co.in/posts/cyber-security/</link><description>Recent content in Cyber Security on Swayam Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cybersociety.co.in/posts/cyber-security/index.xml" rel="self" type="application/rss+xml"/><item><title>My Road map for cyber security</title><link>https://www.cybersociety.co.in/posts/cyber-security/my-road-map-for-cyber-security/</link><pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/cyber-security/my-road-map-for-cyber-security/</guid><description>&lt;h2 id="month-1-3-foundations">Month 1-3: Foundations&lt;/h2>
+&lt;h3 id="networking-fundamentals">Networking Fundamentals&lt;/h3>
+&lt;ul>
+&lt;li>Learn TCP/IP, OSI model, and common protocols&lt;/li>
+&lt;li>Study network topologies and architecture&lt;/li>
+&lt;li>Practice with tools like Wireshark for packet analysis&lt;/li>
+&lt;/ul>
+&lt;h3 id="linux-essentials">Linux Essentials&lt;/h3>
+&lt;ul>
+&lt;li>Install a Linux distribution (e.g., Ubuntu or Kali Linux)&lt;/li>
+&lt;li>Master basic command-line operations&lt;/li>
+&lt;li>Learn file system structure and permissions&lt;/li>
+&lt;/ul>
+&lt;h3 id="programming-basics">Programming Basics&lt;/h3>
+&lt;ul>
+&lt;li>Start with Python for cybersecurity&lt;/li>
+&lt;li>Learn basic scripting for automation&lt;/li>
+&lt;li>Practice with simple security-related coding projects&lt;/li>
+&lt;/ul>
+&lt;h2 id="month-4-6-core-security-concepts">Month 4-6: Core Security Concepts&lt;/h2>
+&lt;h3 id="information-security-principles">Information Security Principles&lt;/h3>
+&lt;ul>
+&lt;li>Study CIA triad (Confidentiality, Integrity, Availability)&lt;/li>
+&lt;li>Learn about access control models and authentication methods&lt;/li>
+&lt;li>Understand basic cryptography concepts&lt;/li>
+&lt;/ul>
+&lt;h3 id="web-application-security">Web Application Security&lt;/h3>
+&lt;ul>
+&lt;li>Learn common web vulnerabilities (e.g., OWASP Top 10)&lt;/li>
+&lt;li>Practice identifying and exploiting basic web app flaws&lt;/li>
+&lt;li>Study secure coding practices&lt;/li>
+&lt;/ul>
+&lt;h3 id="network-security">Network Security&lt;/h3>
+&lt;ul>
+&lt;li>Understand firewalls, IDS/IPS, and VPNs&lt;/li>
+&lt;li>Learn about common network attacks and defenses&lt;/li>
+&lt;li>Practice configuring basic network security tools&lt;/li>
+&lt;/ul>
+&lt;h2 id="month-7-9-specialization-and-practical-skills">Month 7-9: Specialization and Practical Skills&lt;/h2>
+&lt;h3 id="ethical-hacking-basics">Ethical Hacking Basics&lt;/h3>
+&lt;ul>
+&lt;li>Study penetration testing methodologies&lt;/li>
+&lt;li>Learn about reconnaissance and scanning techniques&lt;/li>
+&lt;li>Practice with vulnerable virtual machines (e.g., DVWA, Metasploitable)&lt;/li>
+&lt;/ul>
+&lt;h3 id="incident-response-and-forensics">Incident Response and Forensics&lt;/h3>
+&lt;ul>
+&lt;li>Understand the incident response lifecycle&lt;/li>
+&lt;li>Learn basic digital forensics techniques&lt;/li>
+&lt;li>Practice with forensic tools like Autopsy or EnCase&lt;/li>
+&lt;/ul>
+&lt;h3 id="cloud-security">Cloud Security&lt;/h3>
+&lt;ul>
+&lt;li>Study cloud service models (IaaS, PaaS, SaaS)&lt;/li>
+&lt;li>Learn about shared responsibility models&lt;/li>
+&lt;li>Practice securing cloud environments (e.g., AWS, Azure)&lt;/li>
+&lt;/ul>
+&lt;h2 id="month-10-12-advanced-topics-and-career-preparation">Month 10-12: Advanced Topics and Career Preparation&lt;/h2>
+&lt;h3 id="threat-intelligence">Threat Intelligence&lt;/h3>
+&lt;ul>
+&lt;li>Learn about threat actors and their motivations&lt;/li>
+&lt;li>Study threat intelligence platforms and feeds&lt;/li>
+&lt;li>Practice creating threat intelligence reports&lt;/li>
+&lt;/ul>
+&lt;h3 id="governance-risk-and-compliance">Governance, Risk, and Compliance&lt;/h3>
+&lt;ul>
+&lt;li>Understand common security frameworks (e.g., NIST, ISO 27001)&lt;/li>
+&lt;li>Learn about risk assessment methodologies&lt;/li>
+&lt;li>Study relevant regulations (e.g., GDPR, HIPAA)&lt;/li>
+&lt;/ul>
+&lt;h3 id="career-development">Career Development&lt;/h3>
+&lt;ul>
+&lt;li>Build a professional network (join cybersecurity communities, attend webinars)&lt;/li>
+&lt;li>Create a portfolio of projects and write-ups&lt;/li>
+&lt;li>Prepare for entry-level cybersecurity certifications (e.g., CompTIA Security+)&lt;/li>
+&lt;/ul>
+&lt;p>Throughout the year:&lt;/p></description><content>&lt;h2 id="month-1-3-foundations">Month 1-3: Foundations&lt;/h2>
+&lt;h3 id="networking-fundamentals">Networking Fundamentals&lt;/h3>
+&lt;ul>
+&lt;li>Learn TCP/IP, OSI model, and common protocols&lt;/li>
+&lt;li>Study network topologies and architecture&lt;/li>
+&lt;li>Practice with tools like Wireshark for packet analysis&lt;/li>
+&lt;/ul>
+&lt;h3 id="linux-essentials">Linux Essentials&lt;/h3>
+&lt;ul>
+&lt;li>Install a Linux distribution (e.g., Ubuntu or Kali Linux)&lt;/li>
+&lt;li>Master basic command-line operations&lt;/li>
+&lt;li>Learn file system structure and permissions&lt;/li>
+&lt;/ul>
+&lt;h3 id="programming-basics">Programming Basics&lt;/h3>
+&lt;ul>
+&lt;li>Start with Python for cybersecurity&lt;/li>
+&lt;li>Learn basic scripting for automation&lt;/li>
+&lt;li>Practice with simple security-related coding projects&lt;/li>
+&lt;/ul>
+&lt;h2 id="month-4-6-core-security-concepts">Month 4-6: Core Security Concepts&lt;/h2>
+&lt;h3 id="information-security-principles">Information Security Principles&lt;/h3>
+&lt;ul>
+&lt;li>Study CIA triad (Confidentiality, Integrity, Availability)&lt;/li>
+&lt;li>Learn about access control models and authentication methods&lt;/li>
+&lt;li>Understand basic cryptography concepts&lt;/li>
+&lt;/ul>
+&lt;h3 id="web-application-security">Web Application Security&lt;/h3>
+&lt;ul>
+&lt;li>Learn common web vulnerabilities (e.g., OWASP Top 10)&lt;/li>
+&lt;li>Practice identifying and exploiting basic web app flaws&lt;/li>
+&lt;li>Study secure coding practices&lt;/li>
+&lt;/ul>
+&lt;h3 id="network-security">Network Security&lt;/h3>
+&lt;ul>
+&lt;li>Understand firewalls, IDS/IPS, and VPNs&lt;/li>
+&lt;li>Learn about common network attacks and defenses&lt;/li>
+&lt;li>Practice configuring basic network security tools&lt;/li>
+&lt;/ul>
+&lt;h2 id="month-7-9-specialization-and-practical-skills">Month 7-9: Specialization and Practical Skills&lt;/h2>
+&lt;h3 id="ethical-hacking-basics">Ethical Hacking Basics&lt;/h3>
+&lt;ul>
+&lt;li>Study penetration testing methodologies&lt;/li>
+&lt;li>Learn about reconnaissance and scanning techniques&lt;/li>
+&lt;li>Practice with vulnerable virtual machines (e.g., DVWA, Metasploitable)&lt;/li>
+&lt;/ul>
+&lt;h3 id="incident-response-and-forensics">Incident Response and Forensics&lt;/h3>
+&lt;ul>
+&lt;li>Understand the incident response lifecycle&lt;/li>
+&lt;li>Learn basic digital forensics techniques&lt;/li>
+&lt;li>Practice with forensic tools like Autopsy or EnCase&lt;/li>
+&lt;/ul>
+&lt;h3 id="cloud-security">Cloud Security&lt;/h3>
+&lt;ul>
+&lt;li>Study cloud service models (IaaS, PaaS, SaaS)&lt;/li>
+&lt;li>Learn about shared responsibility models&lt;/li>
+&lt;li>Practice securing cloud environments (e.g., AWS, Azure)&lt;/li>
+&lt;/ul>
+&lt;h2 id="month-10-12-advanced-topics-and-career-preparation">Month 10-12: Advanced Topics and Career Preparation&lt;/h2>
+&lt;h3 id="threat-intelligence">Threat Intelligence&lt;/h3>
+&lt;ul>
+&lt;li>Learn about threat actors and their motivations&lt;/li>
+&lt;li>Study threat intelligence platforms and feeds&lt;/li>
+&lt;li>Practice creating threat intelligence reports&lt;/li>
+&lt;/ul>
+&lt;h3 id="governance-risk-and-compliance">Governance, Risk, and Compliance&lt;/h3>
+&lt;ul>
+&lt;li>Understand common security frameworks (e.g., NIST, ISO 27001)&lt;/li>
+&lt;li>Learn about risk assessment methodologies&lt;/li>
+&lt;li>Study relevant regulations (e.g., GDPR, HIPAA)&lt;/li>
+&lt;/ul>
+&lt;h3 id="career-development">Career Development&lt;/h3>
+&lt;ul>
+&lt;li>Build a professional network (join cybersecurity communities, attend webinars)&lt;/li>
+&lt;li>Create a portfolio of projects and write-ups&lt;/li>
+&lt;li>Prepare for entry-level cybersecurity certifications (e.g., CompTIA Security+)&lt;/li>
+&lt;/ul>
+&lt;p>Throughout the year:&lt;/p>
+&lt;ul>
+&lt;li>Stay updated with cybersecurity news and trends&lt;/li>
+&lt;li>Participate in Capture The Flag (CTF) competitions&lt;/li>
+&lt;li>Contribute to open-source security projects&lt;/li>
+&lt;li>Practice ethical hacking on platforms like Hack-The-Box or Try-Hack-Me&lt;/li>
+&lt;/ul></content></item><item><title>Network</title><link>https://www.cybersociety.co.in/posts/cyber-security/network/</link><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/cyber-security/network/</guid><description>&lt;h1 id="what-is-computer-networking">What is computer networking?&lt;/h1>
+&lt;p>Networking, or computer networking, is the process of connecting two or more computing devices, such as desktop computers, mobile devices, routers or applications, to enable the transmission and exchange of information and resources.&lt;/p>
+&lt;p>Networked devices rely on communications protocols—rules that describe how to transmit or exchange data across a network—to share information over physical or wireless connections.&lt;/p>
+&lt;h1 id="key-networking-components-and-devices">Key networking components and devices&lt;/h1>
+&lt;p>Before we delve into more complex networking topics, it’s important to understand fundamental networking components, including:&lt;/p></description><content>&lt;h1 id="what-is-computer-networking">What is computer networking?&lt;/h1>
+&lt;p>Networking, or computer networking, is the process of connecting two or more computing devices, such as desktop computers, mobile devices, routers or applications, to enable the transmission and exchange of information and resources.&lt;/p>
+&lt;p>Networked devices rely on communications protocols—rules that describe how to transmit or exchange data across a network—to share information over physical or wireless connections.&lt;/p>
+&lt;h1 id="key-networking-components-and-devices">Key networking components and devices&lt;/h1>
+&lt;p>Before we delve into more complex networking topics, it’s important to understand fundamental networking components, including:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>IP address:&lt;/strong> An IP address is the unique number assigned to every network device in an Internet Protocol (IP) network; each IP address identifies the device’s host network and its location on the network. When one device sends data to another, the data includes a “header” that includes the IP addresses of both the sending and receiving devices.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Nodes:&lt;/strong> A node is a network connection point that can receive, send, create or store data. It’s essentially any network device—computers, printers, modems, bridges or switches—that can recognize, process and transmit information to another network node. Each node requires some form of identification (such an IP or MAC address) to receive access to the network.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Routers:&lt;/strong> A router is a physical or virtual device that sends data “packets” between networks. Routers analyze the data within packets to determine the best transmission path and use sophisticated routing algorithms to forward data packets until they reach their destination node.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Switches:&lt;/strong> A switch is a device that connects network devices and manages node-to-node communication across a network, making sure that data packets reach their intended destination. Unlike routers, which send information &lt;em>between&lt;/em> networks, switches send information between nodes &lt;em>within&lt;/em> a network.&lt;/p>
+&lt;p>Consequently, “switching” refers to how data is transferred between devices on a network. Networks rely on three main types of switching:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>Circuit switching&lt;/em> establishes a dedicated data communication path between nodes in a network, so no other traffic can traverse the same path. Circuit switching sees to it that full bandwidth is available during every transmission.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Message switching&lt;/em> sends whole messages from the source node to the destination node, with the message traveling from switch to switch until it reaches the destination.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Packet switching&lt;/em> involves breaking down data into independent components to make data transmission less demanding of network resources. With packet switching, packets—instead of entire data streams—travel through the network to their end destination.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Ports:&lt;/strong> A port indicates a specific connection between network devices, with each port identified by a number. If an IP address is analogous to a hotel address, then ports are the suites and room numbers. Computers use port numbers to determine which application, service or process should receive which messages.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Gateways:&lt;/strong> Gateways are hardware devices that facilitate communication between two different networks. Routers, firewalls and other gateway devices use rate converters, protocol translators and other technologies to make inter-network communication possible between otherwise incompatible devices.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="network-types-by-communication-type">Network types by communication type&lt;/h3>
+&lt;p>Computing networks can transmit data using a range of transmission dynamics, including: 
+Multipoint networks&lt;/p>
+&lt;h4 id="in-a-multipoint-network">In a multipoint network,&lt;/h4>
+&lt;p>multiple devices share channel capacity and network links.&lt;/p>
+&lt;h4 id="point-to-point-networks">Point-to-point networks&lt;/h4>
+&lt;p>Network devices establish a direct node-to-node link to transmit data.&lt;/p>
+&lt;h4 id="broadcast-networks">Broadcast networks&lt;/h4>
+&lt;p>On broadcast networks, several interested “parties” (devices) can receive one-way transmissions from a single sending device. Television stations are a great example of broadcast networks.&lt;/p>
+&lt;h4 id="virtual-private-networks-vpns">Virtual private networks (VPNs)&lt;/h4>
+&lt;p>A VPN is a secure, point-to-point connection between two network endpoints. It establishes an encrypted channel that keeps a user’s identity and access credentials, as well as any data transferred, inaccessible to hackers.&lt;/p>
+&lt;h1 id="network-communication-protocols">Network communication protocols&lt;/h1>
+&lt;p>Whether it’s the internet protocol (IP) suite, Ethernet, wireless LAN (WLAN) or cellular communication standards, all computer networks follow communication protocols—sets of rules that every node on the network must follow in order to share and receive data. Protocols also rely on gateways to enable incompatible devices to communicate (a Windows computer attempting to access Linux servers, for instance)&lt;/p>
+&lt;p>Many modern networks run on TCP/IP models, which include four network layers.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Network access layer.&lt;/strong> Also called the data link layer or the physical layer, the network access layer of a TCP/IP network includes the network &lt;a href="https://www.ibm.com/topics/infrastructure">infrastructure&lt;/a> (hardware and software components) necessary for interfacing with the network medium. It handles physical data transmission—using Ethernet and protocols such as the address resolution protocol (ARP)—between devices on the same network.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Internet layer.&lt;/strong> The internet layer is responsible for logical addressing, routing and packet forwarding. It primarily relies on the IP protocol and the Internet Control Message Protocol (ICMP), which manages addressing and routing of packets across different networks.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Transport layer.&lt;/strong> The TCP/IP transport layer enables data transfer between upper and lower layers of the network. Using TCP and UDP protocols, it also provides mechanisms for error checking and flow control.&lt;/p>
+&lt;p>TCP is a connection-based protocol that is generally slower but more reliable than UDP. UDP is a connectionless protocol that is faster than TCP but does not provide guaranteed transfer. UDP protocols facilitate packet transmission for time-sensitive apps (such as video streaming and gaming platforms) and DNS lookups.**&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Application layer.&lt;/strong> TCP/IP’s application layer uses HTTP, FTP, Post Office Protocol 3 (POP3), SMTP, &lt;a href="https://www.ibm.com/topics/dns">domain name system (DNS)&lt;/a> and SSH protocols to provide network services directly to applications. It also manages all the protocols that support user applications&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="osi-model">OSI Model&lt;/h1>
+&lt;p>The Open Systems Interconnection (OSI) model—also called the OSI reference model—is a conceptual model that divides network communication and interoperability into seven abstract layers. It provides a standardized model that enables different applications, computer systems and networks to communicate.&lt;/p>
+&lt;p>The OSI model emerged as a solution to communication incompatibilities between the diverse array of networking protocols in use around the turn of the century. The layers of OSI gave developers and engineers a framework for building interoperable hardware and software across networks by providing a categorical approach to &lt;a href="https://www.ibm.com/topics/networking">networking&lt;/a>.&lt;/p>
+&lt;p>At each layer of the stack—typically shown in reverse order to illustrate how data moves through a network—the OSI model provides guidelines and criteria for network components and their unique computing functions.&lt;/p>
+&lt;p>The layers are:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Layer 7: The application layer initiates communication with the network, including the protocols and data manipulation processes that convert computer-readable network data into user-readable responses.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Layer 6: The presentation layer prepares data for the application layer, including data translation, compression and &lt;a href="https://www.ibm.com/topics/encryption">encryption&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Layer 5: The session layer initiates and terminates connections between two devices interacting on the network, making sure that resources are neither overused nor underutilized.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Layer 4: The transport layer transmits end-to-end data between two devices interacting on the network, making sure that data isn’t lost, misconfigured or corrupted.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Layer 3: The network layer handles data addressing, routing and forwarding processes for devices interacting across different networks. If the devices are on the same network, they don’t need the network layer to interact.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Layer 2: Unlike the network layer, the data link layer manages data routing between two interacting devices on the same network.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Layer 1: The physical layer comprises the physical assets, like routers and USB cables, that convert data into strings of 1s and 0s for transmission to higher layers.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://www.ibm.com/topics/networking">source1&lt;/a>
+&lt;a href="https://www.ibm.com/think/topics/osi-model">source2&lt;/a>
+&lt;a href="https://en.wikipedia.org/wiki/OSI_model">source3&lt;/a>&lt;/p></content></item><item><title>Cyber Security</title><link>https://www.cybersociety.co.in/posts/cyber-security/cyber-security/</link><pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/cyber-security/cyber-security/</guid><description>&lt;h1 id="hi-guys-lets-start-our-cyber-security-journey-is-from-today">Hi guys lets Start our cyber security journey is From today&lt;/h1>
+&lt;h3 id="in-this-journey-we-are-going-to-learn-about-the-fundamentals-of-cyber-security">In this Journey we are going to learn about the fundamentals of cyber security&lt;/h3>
+&lt;ul>
+&lt;li>Programming for Cybersecurity&lt;/li>
+&lt;li>Cybersecurity Basics&lt;/li>
+&lt;li>Networking Fundamentals&lt;/li>
+&lt;li>Operating Systems Security&lt;/li>
+&lt;li>Cryptography&lt;/li>
+&lt;li>Penetration Testing&lt;/li>
+&lt;/ul>
+&lt;h3 id="i-am-thing-of-starting-form-c-and-c-as-they-are-low-level-languages-and-help-me-with-my-college-also-and-in-cyberspace-also">I am thing of starting form c and c++ as they are low level languages and help me with my college also and in cyberspace also.&lt;/h3>
+&lt;h2 id="i-am-thing-of-complete-the-basic-in-12-months-so--that-i-can-get-some-internship-and-grow-my--self">I am thing of complete the basic in 12 Months so that i can get some internship and grow my self.&lt;/h2>
+&lt;h2 id="lets-start-this-journey-of-mine-form-1-jan-2025-this-is-my-new-year-resolution-that-i-will-cyber-security-internship-by-the-end-of-this-year">Lets start this Journey of mine form 1 Jan 2025 This is my new Year Resolution that I will Cyber Security internship by the end of this year.&lt;/h2>
+&lt;h2 id="i-am--think-of-posting-my-work-weekly-here-as-i-know-no-body-is-reading-this-this-but-it-helps-me-feel-motivated-to-do-the-work">I am think of Posting my work weekly here as i know no body is reading this this but it helps me feel motivated to do the work&lt;/h2>
+&lt;h2 id="thanks">Thanks&lt;/h2></description><content>&lt;h1 id="hi-guys-lets-start-our-cyber-security-journey-is-from-today">Hi guys lets Start our cyber security journey is From today&lt;/h1>
+&lt;h3 id="in-this-journey-we-are-going-to-learn-about-the-fundamentals-of-cyber-security">In this Journey we are going to learn about the fundamentals of cyber security&lt;/h3>
+&lt;ul>
+&lt;li>Programming for Cybersecurity&lt;/li>
+&lt;li>Cybersecurity Basics&lt;/li>
+&lt;li>Networking Fundamentals&lt;/li>
+&lt;li>Operating Systems Security&lt;/li>
+&lt;li>Cryptography&lt;/li>
+&lt;li>Penetration Testing&lt;/li>
+&lt;/ul>
+&lt;h3 id="i-am-thing-of-starting-form-c-and-c-as-they-are-low-level-languages-and-help-me-with-my-college-also-and-in-cyberspace-also">I am thing of starting form c and c++ as they are low level languages and help me with my college also and in cyberspace also.&lt;/h3>
+&lt;h2 id="i-am-thing-of-complete-the-basic-in-12-months-so--that-i-can-get-some-internship-and-grow-my--self">I am thing of complete the basic in 12 Months so that i can get some internship and grow my self.&lt;/h2>
+&lt;h2 id="lets-start-this-journey-of-mine-form-1-jan-2025-this-is-my-new-year-resolution-that-i-will-cyber-security-internship-by-the-end-of-this-year">Lets start this Journey of mine form 1 Jan 2025 This is my new Year Resolution that I will Cyber Security internship by the end of this year.&lt;/h2>
+&lt;h2 id="i-am--think-of-posting-my-work-weekly-here-as-i-know-no-body-is-reading-this-this-but-it-helps-me-feel-motivated-to-do-the-work">I am think of Posting my work weekly here as i know no body is reading this this but it helps me feel motivated to do the work&lt;/h2>
+&lt;h2 id="thanks">Thanks&lt;/h2></content></item></channel></rss>

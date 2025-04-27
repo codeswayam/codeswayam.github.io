@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DSA on Swayam Blog</title><link>https://www.cybersociety.co.in/tags/dsa/</link><description>Recent content in DSA on Swayam Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cybersociety.co.in/tags/dsa/index.xml" rel="self" type="application/rss+xml"/><item><title>Basic Overview of DSA</title><link>https://www.cybersociety.co.in/posts/dsa/basic-overview-of-dsa/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/dsa/basic-overview-of-dsa/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Arrays&lt;/strong>: Linear data structure with a fixed size, allowing random access to elements.&lt;/p>
+&lt;ul>
+&lt;li>Best for: Static datasets with frequent element access.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Access: O(1)&lt;/li>
+&lt;li>Search: O(n)&lt;/li>
+&lt;li>Insertion/Deletion: O(n)
+&lt;a href="https://www.cybersociety.co.in/posts/dsa/array/">Array&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Linked Lists&lt;/strong>: Linear structure of nodes, where each node points to the next.&lt;/p>
+&lt;ul>
+&lt;li>Types: Singly, Doubly, Circular.&lt;/li>
+&lt;li>Best for: Dynamic datasets with frequent insertions/deletions.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Access/Search: O(n)&lt;/li>
+&lt;li>Insertion/Deletion: O(1) (at head/tail with pointer)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Hash Maps (or Hash Tables)&lt;/strong>: Key-value pair storage with a hash function.&lt;/p></description><content>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Arrays&lt;/strong>: Linear data structure with a fixed size, allowing random access to elements.&lt;/p>
+&lt;ul>
+&lt;li>Best for: Static datasets with frequent element access.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Access: O(1)&lt;/li>
+&lt;li>Search: O(n)&lt;/li>
+&lt;li>Insertion/Deletion: O(n)
+&lt;a href="https://www.cybersociety.co.in/posts/dsa/array/">Array&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Linked Lists&lt;/strong>: Linear structure of nodes, where each node points to the next.&lt;/p>
+&lt;ul>
+&lt;li>Types: Singly, Doubly, Circular.&lt;/li>
+&lt;li>Best for: Dynamic datasets with frequent insertions/deletions.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Access/Search: O(n)&lt;/li>
+&lt;li>Insertion/Deletion: O(1) (at head/tail with pointer)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Hash Maps (or Hash Tables)&lt;/strong>: Key-value pair storage with a hash function.&lt;/p>
+&lt;ul>
+&lt;li>Best for: Quick lookup and insertion.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Average: O(1)&lt;/li>
+&lt;li>Worst-case: O(n)(due to hash collisions)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Stacks&lt;/strong>: LIFO (Last In, First Out) structure.&lt;/p>
+&lt;ul>
+&lt;li>Operations: Push, Pop, Peek.&lt;/li>
+&lt;li>Best for: Recursive problems, expression evaluation.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Push/Pop/Peek: O(1)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Queues&lt;/strong>: FIFO (First In, First Out) structure.&lt;/p>
+&lt;ul>
+&lt;li>Variants: Circular Queue, Deque, Priority Queue.&lt;/li>
+&lt;li>Best for: Scheduling, buffering.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Enqueue/Dequeue: O(1)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Trees&lt;/strong>: Hierarchical structure with nodes (root, parent, children).&lt;/p>
+&lt;ul>
+&lt;li>Types: Binary, Binary Search Tree (BST), AVL, Red-Black, etc.&lt;/li>
+&lt;li>Best for: Hierarchical data, searching/sorting.&lt;/li>
+&lt;li>Complexity:
+&lt;ul>
+&lt;li>Search/Insert/Delete: O(h), where h is the tree height.&lt;/li>
+&lt;li>Balanced trees maintain h=O(logn).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Graphs&lt;/strong>: Collection of nodes (vertices) connected by edges.&lt;/p>
+&lt;ul>
+&lt;li>Types: Directed, Undirected, Weighted, Unweighted.&lt;/li>
+&lt;li>Representation: Adjacency Matrix/List.&lt;/li>
+&lt;li>Best for: Network problems, pathfinding.&lt;/li>
+&lt;li>Algorithms: DFS, BFS, Dijkstra’s, Prim’s, Kruskal’s.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></content></item><item><title>Array</title><link>https://www.cybersociety.co.in/posts/dsa/array/array/</link><pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/dsa/array/array/</guid><description>&lt;h3 id="1-sorting-algorithms">&lt;strong>1. Sorting Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Sorting arranges elements in a specific order (ascending or descending).&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Bubble Sort&lt;/strong> – Repeatedly swaps adjacent elements if they are in the wrong order.&lt;/li>
+&lt;li>&lt;strong>Selection Sort&lt;/strong> – Selects the smallest/largest element and places it in order.&lt;/li>
+&lt;li>&lt;strong>Insertion Sort&lt;/strong> – Builds the sorted array one element at a time.&lt;/li>
+&lt;li>&lt;strong>Merge Sort&lt;/strong> – Uses the divide-and-conquer technique to sort.&lt;/li>
+&lt;li>&lt;strong>Quick Sort&lt;/strong> – Selects a pivot and partitions elements around it.&lt;/li>
+&lt;li>&lt;strong>Heap Sort&lt;/strong> – Uses a binary heap to sort efficiently.&lt;/li>
+&lt;li>&lt;strong>Radix Sort&lt;/strong> – Sorts numbers digit by digit.&lt;/li>
+&lt;li>&lt;strong>Counting Sort&lt;/strong> – Counts occurrences of elements (used for small range values).&lt;/li>
+&lt;li>&lt;a href="https://www.cybersociety.co.in/posts/dsa/array/sorting/">Sorting&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="2-searching-algorithms">&lt;strong>2. Searching Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Used to find an element in an array.&lt;/p></description><content>&lt;h3 id="1-sorting-algorithms">&lt;strong>1. Sorting Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Sorting arranges elements in a specific order (ascending or descending).&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Bubble Sort&lt;/strong> – Repeatedly swaps adjacent elements if they are in the wrong order.&lt;/li>
+&lt;li>&lt;strong>Selection Sort&lt;/strong> – Selects the smallest/largest element and places it in order.&lt;/li>
+&lt;li>&lt;strong>Insertion Sort&lt;/strong> – Builds the sorted array one element at a time.&lt;/li>
+&lt;li>&lt;strong>Merge Sort&lt;/strong> – Uses the divide-and-conquer technique to sort.&lt;/li>
+&lt;li>&lt;strong>Quick Sort&lt;/strong> – Selects a pivot and partitions elements around it.&lt;/li>
+&lt;li>&lt;strong>Heap Sort&lt;/strong> – Uses a binary heap to sort efficiently.&lt;/li>
+&lt;li>&lt;strong>Radix Sort&lt;/strong> – Sorts numbers digit by digit.&lt;/li>
+&lt;li>&lt;strong>Counting Sort&lt;/strong> – Counts occurrences of elements (used for small range values).&lt;/li>
+&lt;li>&lt;a href="https://www.cybersociety.co.in/posts/dsa/array/sorting/">Sorting&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="2-searching-algorithms">&lt;strong>2. Searching Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Used to find an element in an array.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Linear Search&lt;/strong> – Searches sequentially from start to end.&lt;/li>
+&lt;li>&lt;strong>Binary Search&lt;/strong> – Searches in a sorted array by dividing it into halves.&lt;/li>
+&lt;li>&lt;strong>Jump Search&lt;/strong> – Jumps ahead by fixed steps and performs a linear search.&lt;/li>
+&lt;li>&lt;strong>Interpolation Search&lt;/strong> – Improved binary search that assumes a uniform distribution of values.&lt;/li>
+&lt;li>&lt;strong>Exponential Search&lt;/strong> – Useful for searching in unbounded or infinite-sized arrays.&lt;/li>
+&lt;li>&lt;a href="https://www.cybersociety.co.in/posts/dsa/array/searching/">Searching&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="3-two-pointer-techniques">&lt;strong>3. Two-Pointer Techniques&lt;/strong>&lt;/h3>
+&lt;p>Used for problems requiring element comparison or sum-based conditions.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Two-Sum Problem&lt;/strong> – Find two numbers in an array that add up to a target.&lt;/li>
+&lt;li>&lt;strong>Three-Sum Problem&lt;/strong> – Find three numbers that sum to a target.&lt;/li>
+&lt;li>&lt;strong>Dutch National Flag Algorithm&lt;/strong> – Used for sorting arrays with three types of elements (e.g., 0s, 1s, and 2s).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="4-divide-and-conquer-algorithms">&lt;strong>4. Divide and Conquer Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Breaks the array into smaller parts, solves each, and merges results.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Merge Sort&lt;/strong> – Recursively divides and merges sorted parts.&lt;/li>
+&lt;li>&lt;strong>Quick Sort&lt;/strong> – Uses a pivot to partition the array.&lt;/li>
+&lt;li>&lt;strong>Binary Search&lt;/strong> – Recursively searches a sorted array.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="5-greedy-algorithms">&lt;strong>5. Greedy Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Make the best choice at each step to find an optimal solution.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Activity Selection Problem&lt;/strong> – Select maximum non-overlapping activities.&lt;/li>
+&lt;li>&lt;strong>Interval Scheduling&lt;/strong> – Schedule tasks with given constraints.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="6-sliding-window-algorithms">&lt;strong>6. Sliding Window Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Efficiently finds a subarray or subset in an array.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Fixed Window Size&lt;/strong> – Finds max/min sum of a subarray of size &lt;code>k&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>Variable Window Size&lt;/strong> – Used for finding the smallest subarray with a sum ≥ target.&lt;/li>
+&lt;li>&lt;strong>Maximum Sum Subarray (Kadane’s Algorithm)&lt;/strong> – Finds the largest sum of contiguous subarrays.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="7-hashing-based-algorithms">&lt;strong>7. Hashing-Based Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Use hash tables for quick lookups and frequency counting.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Two Sum (Hash Map Approach)&lt;/strong> – Stores values and looks for complements.&lt;/li>
+&lt;li>&lt;strong>Subarray with Zero Sum&lt;/strong> – Uses hashing to detect if a sum has occurred before.&lt;/li>
+&lt;li>&lt;strong>Longest Consecutive Sequence&lt;/strong> – Uses a hash set to track elements.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="8-dynamic-programming-dp-algorithms">&lt;strong>8. Dynamic Programming (DP) Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Used for optimization problems.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Longest Increasing Subsequence (LIS)&lt;/strong> – Finds the longest increasing sequence.&lt;/li>
+&lt;li>&lt;strong>0/1 Knapsack Problem&lt;/strong> – Determines the best way to pack items into a knapsack.&lt;/li>
+&lt;li>&lt;strong>Subset Sum Problem&lt;/strong> – Finds if a subset with a given sum exists.&lt;/li>
+&lt;li>&lt;strong>Coin Change Problem&lt;/strong> – Finds the minimum number of coins for a given amount.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="9-matrix-manipulation-algorithms">&lt;strong>9. Matrix Manipulation Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Arrays can be represented as matrices for solving problems.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Rotate a Matrix (90 degrees, 180 degrees, etc.)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Spiral Order Traversal&lt;/strong> – Traverse a 2D array in a spiral.&lt;/li>
+&lt;li>&lt;strong>Flood Fill Algorithm&lt;/strong> – Used in image processing (similar to DFS/BFS).&lt;/li>
+&lt;li>&lt;strong>Pathfinding (Dijkstra’s, Floyd-Warshall, etc.)&lt;/strong> – Find shortest paths in graphs represented as matrices.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="10-bit-manipulation-algorithms">&lt;strong>10. Bit Manipulation Algorithms&lt;/strong>&lt;/h3>
+&lt;p>Use bitwise operations to solve problems efficiently.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Finding the Single Non-Repeating Element (XOR Trick)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Counting Set Bits (Brian Kernighan’s Algorithm)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Subsets using Bitmasking&lt;/strong> – Generate all subsets using bitwise operations.&lt;/li>
+&lt;/ul></content></item><item><title>Searching</title><link>https://www.cybersociety.co.in/posts/dsa/array/searching/</link><pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/dsa/array/searching/</guid><description>&lt;h3 id="1-linear-search">&lt;strong>1. Linear Search&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Sequentially checks each element in the array.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-binary-search-for-sorted-arrays-only">&lt;strong>2. Binary Search (For Sorted Arrays Only)&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Repeatedly divides the array in half and searches in the relevant half.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>O(1)&lt;/strong> (Iterative)&lt;/li>
+&lt;li>&lt;strong>O(log n)&lt;/strong> (Recursive, due to function call stack)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-jump-search-for-sorted-arrays">&lt;strong>3. Jump Search (For Sorted Arrays)&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Jumps ahead by a block size (√n) and does a linear search within that block.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(√n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(√n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-interpolation-search-for-uniformly-distributed-sorted-data">&lt;strong>4. Interpolation Search (For Uniformly Distributed Sorted Data)&lt;/strong>&lt;/h3>
+&lt;p>&lt;strong>Approach:&lt;/strong> Uses the formula to estimate the probable position of the target.
+$$
+pos=left+ \frac {(target−arr[left])×(right−left)}{(arr[right]−arr[left])}​
+$$&lt;/p></description><content>&lt;h3 id="1-linear-search">&lt;strong>1. Linear Search&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Sequentially checks each element in the array.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-binary-search-for-sorted-arrays-only">&lt;strong>2. Binary Search (For Sorted Arrays Only)&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Repeatedly divides the array in half and searches in the relevant half.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>O(1)&lt;/strong> (Iterative)&lt;/li>
+&lt;li>&lt;strong>O(log n)&lt;/strong> (Recursive, due to function call stack)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-jump-search-for-sorted-arrays">&lt;strong>3. Jump Search (For Sorted Arrays)&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Jumps ahead by a block size (√n) and does a linear search within that block.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(√n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(√n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-interpolation-search-for-uniformly-distributed-sorted-data">&lt;strong>4. Interpolation Search (For Uniformly Distributed Sorted Data)&lt;/strong>&lt;/h3>
+&lt;p>&lt;strong>Approach:&lt;/strong> Uses the formula to estimate the probable position of the target.
+$$
+pos=left+ \frac {(target−arr[left])×(right−left)}{(arr[right]−arr[left])}​
+$$&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(n)&lt;/strong> (when data is skewed)&lt;/li>
+&lt;li>Average: &lt;strong>O(log log n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="5-exponential-search-for-unbounded-sorted-arrays">&lt;strong>5. Exponential Search (For Unbounded Sorted Arrays)&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Starts with small steps (1, 2, 4, 8…) to find a suitable range, then uses Binary Search.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="6-fibonacci-search-for-sorted-arrays">&lt;strong>6. Fibonacci Search (For Sorted Arrays)&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Approach:&lt;/strong> Uses Fibonacci numbers instead of dividing by 2 like Binary Search.&lt;/li>
+&lt;li>&lt;strong>Time Complexity:&lt;/strong>
+&lt;ul>
+&lt;li>Best: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Worst: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;li>Average: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Space Complexity:&lt;/strong> &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="comparison-table">&lt;strong>Comparison Table&lt;/strong>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Algorithm&lt;/th>
+&lt;th>Best Case&lt;/th>
+&lt;th>Worst Case&lt;/th>
+&lt;th>Average Case&lt;/th>
+&lt;th>Space Complexity&lt;/th>
+&lt;th>Sorted Array Required?&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Linear Search&lt;/strong>&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>No&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Binary Search&lt;/strong>&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>O(1) / O(log n)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Jump Search&lt;/strong>&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>O(√n)&lt;/td>
+&lt;td>O(√n)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Interpolation Search&lt;/strong>&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(log log n)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Exponential Search&lt;/strong>&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Fibonacci Search&lt;/strong>&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></content></item><item><title>_index</title><link>https://www.cybersociety.co.in/posts/dsa/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/dsa/</guid><description>&lt;h1 id="hi-this-is-my-dsa-journey">Hi this is my DSA Journey&lt;/h1></description><content>&lt;h1 id="hi-this-is-my-dsa-journey">Hi this is my DSA Journey&lt;/h1></content></item><item><title>Sorting</title><link>https://www.cybersociety.co.in/posts/dsa/array/sorting/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://www.cybersociety.co.in/posts/dsa/array/sorting/</guid><description>&lt;h2 id="sort">Sort&lt;/h2>
+&lt;h3 id="1-comparison-based-sorting">&lt;strong>1. Comparison-Based Sorting&lt;/strong>&lt;/h3>
+&lt;p>These algorithms compare elements to determine their order.&lt;/p>
+&lt;h4 id="a-bubble-sort">&lt;strong>a. Bubble Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Repeatedly swaps adjacent elements if they are in the wrong order.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n²)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="b-selection-sort">&lt;strong>b. Selection Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Finds the smallest element and places it in the correct position.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n²)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="c-insertion-sort">&lt;strong>c. Insertion Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Picks one element at a time and places it in its correct position.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n²)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Efficient for small or nearly sorted data.&lt;/li>
+&lt;/ul>
+&lt;h4 id="d-merge-sort-divide-and-conquer">&lt;strong>d. Merge Sort&lt;/strong> (Divide and Conquer)&lt;/h4>
+&lt;ul>
+&lt;li>Divides the array into halves, sorts them, and merges them.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="e-quick-sort-divide-and-conquer">&lt;strong>e. Quick Sort&lt;/strong> (Divide and Conquer)&lt;/h4>
+&lt;ul>
+&lt;li>Picks a pivot, partitions the array, and sorts recursively.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong> (Best &amp;amp; Avg), &lt;strong>O(n²)&lt;/strong> (Worst)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(log n)&lt;/strong> (due to recursion)&lt;/li>
+&lt;/ul>
+&lt;h4 id="f-heap-sort">&lt;strong>f. Heap Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Converts the array into a heap and extracts elements in order.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="g-shell-sort">&lt;strong>g. Shell Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Variation of insertion sort that sorts elements at a gap.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong> (Best), &lt;strong>O(n²)&lt;/strong> (Worst)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-non-comparison-based-sorting">&lt;strong>2. Non-Comparison-Based Sorting&lt;/strong>&lt;/h3>
+&lt;p>These algorithms do not compare elements directly.&lt;/p></description><content>&lt;h2 id="sort">Sort&lt;/h2>
+&lt;h3 id="1-comparison-based-sorting">&lt;strong>1. Comparison-Based Sorting&lt;/strong>&lt;/h3>
+&lt;p>These algorithms compare elements to determine their order.&lt;/p>
+&lt;h4 id="a-bubble-sort">&lt;strong>a. Bubble Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Repeatedly swaps adjacent elements if they are in the wrong order.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n²)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="b-selection-sort">&lt;strong>b. Selection Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Finds the smallest element and places it in the correct position.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n²)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="c-insertion-sort">&lt;strong>c. Insertion Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Picks one element at a time and places it in its correct position.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n²)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;li>Efficient for small or nearly sorted data.&lt;/li>
+&lt;/ul>
+&lt;h4 id="d-merge-sort-divide-and-conquer">&lt;strong>d. Merge Sort&lt;/strong> (Divide and Conquer)&lt;/h4>
+&lt;ul>
+&lt;li>Divides the array into halves, sorts them, and merges them.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="e-quick-sort-divide-and-conquer">&lt;strong>e. Quick Sort&lt;/strong> (Divide and Conquer)&lt;/h4>
+&lt;ul>
+&lt;li>Picks a pivot, partitions the array, and sorts recursively.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong> (Best &amp;amp; Avg), &lt;strong>O(n²)&lt;/strong> (Worst)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(log n)&lt;/strong> (due to recursion)&lt;/li>
+&lt;/ul>
+&lt;h4 id="f-heap-sort">&lt;strong>f. Heap Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Converts the array into a heap and extracts elements in order.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="g-shell-sort">&lt;strong>g. Shell Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Variation of insertion sort that sorts elements at a gap.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong> (Best), &lt;strong>O(n²)&lt;/strong> (Worst)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(1)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-non-comparison-based-sorting">&lt;strong>2. Non-Comparison-Based Sorting&lt;/strong>&lt;/h3>
+&lt;p>These algorithms do not compare elements directly.&lt;/p>
+&lt;h4 id="a-counting-sort">&lt;strong>a. Counting Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Counts occurrences of elements and places them in sorted order.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n + k)&lt;/strong> (k is range of numbers)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(k)&lt;/strong>&lt;/li>
+&lt;li>Works only for integer values with a known range.&lt;/li>
+&lt;/ul>
+&lt;h4 id="b-radix-sort">&lt;strong>b. Radix Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Sorts numbers digit by digit using counting sort as a subroutine.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(nk)&lt;/strong> (k is number of digits)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(n + k)&lt;/strong>&lt;/li>
+&lt;li>Works well for fixed-size numbers like integers.&lt;/li>
+&lt;/ul>
+&lt;h4 id="c-bucket-sort">&lt;strong>c. Bucket Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Divides elements into buckets and sorts each bucket individually.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n + k)&lt;/strong> (depends on bucket distribution)&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(n + k)&lt;/strong>&lt;/li>
+&lt;li>Works well for uniformly distributed data.&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-hybrid-sorting-algorithms">&lt;strong>3. Hybrid Sorting Algorithms&lt;/strong>&lt;/h3>
+&lt;p>These algorithms combine multiple sorting techniques.&lt;/p>
+&lt;h4 id="a-tim-sort">&lt;strong>a. Tim Sort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Combination of Merge Sort and Insertion Sort.&lt;/li>
+&lt;li>Used in Python’s built-in sorting (&lt;code>sorted()&lt;/code> and &lt;code>.sort()&lt;/code>).&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="b-introsort">&lt;strong>b. Introsort&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Hybrid of Quick Sort, Heap Sort, and Insertion Sort.&lt;/li>
+&lt;li>Used in C++ STL &lt;code>sort()&lt;/code>.&lt;/li>
+&lt;li>Time Complexity: &lt;strong>O(n log n)&lt;/strong>&lt;/li>
+&lt;li>Space Complexity: &lt;strong>O(log n)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="choosing-the-right-sorting-algorithm">&lt;strong>Choosing the Right Sorting Algorithm&lt;/strong>&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Algorithm&lt;/th>
+&lt;th>Best Case&lt;/th>
+&lt;th>Worst Case&lt;/th>
+&lt;th>Average Case&lt;/th>
+&lt;th>Space Complexity&lt;/th>
+&lt;th>Stable?&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Bubble Sort&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Selection Sort&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>No&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Insertion Sort&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Merge Sort&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Quick Sort&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(log n)&lt;/td>
+&lt;td>No&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Heap Sort&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(1)&lt;/td>
+&lt;td>No&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Counting Sort&lt;/td>
+&lt;td>O(n + k)&lt;/td>
+&lt;td>O(n + k)&lt;/td>
+&lt;td>O(n + k)&lt;/td>
+&lt;td>O(k)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Radix Sort&lt;/td>
+&lt;td>O(nk)&lt;/td>
+&lt;td>O(nk)&lt;/td>
+&lt;td>O(nk)&lt;/td>
+&lt;td>O(n + k)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bucket Sort&lt;/td>
+&lt;td>O(n + k)&lt;/td>
+&lt;td>O(n²)&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(n + k)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Tim Sort&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n log n)&lt;/td>
+&lt;td>O(n)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></content></item></channel></rss>
